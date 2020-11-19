@@ -498,25 +498,25 @@ body {
 }
 
 .language__item {
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  background-color: #f7f7f7;
   width: 150px;
   height: 55px;
 }
 
-.language__item.box__checked {
+.language__item input {
+  display: none;
+}
+
+.language__item input:checked + label {
   background-color: #ffffff;
 }
 
 .language__item label {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #f7f7f7;
   display: inline-block;
   width: 100%;
   height: 100%;
-}
-
-.language__item label input {
-  display: none;
 }
 
 .language__search {

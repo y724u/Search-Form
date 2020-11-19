@@ -32,25 +32,25 @@ body {
   }
 
   &__item {
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    background-color: #f7f7f7;
     width: 150px;
     height: 55px;
 
-    &.box__checked {
-      background-color: #ffffff;
-  }
+  input {
+    display: none;
 
+    &:checked + label{
+      background-color: #ffffff;
+    }
+  }
     label {
+      border: 1px solid #cccccc;
+    border-radius: 4px;
+      background-color: #f7f7f7;
       display: inline-block;
       width: 100%;
       height: 100%;
-
-      input {
-        display: none;
-      }
     }
+
   }
 
   &__search {

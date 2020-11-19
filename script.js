@@ -1,14 +1,4 @@
 $(function () {
-  // <!-- プログラミング言語ボタン活性化&非活性化 -->
-  $('.js-checkbox').on('change', function () {
-    const target = $(this).data('target');
-    const language = document.getElementById(target);
-    if ($(this).prop('checked')) {
-      $(language).addClass('box__checked');
-    } else {
-      $(language).removeClass('box__checked');
-    }
-  });
 
   $('form').submit(function () {
     if ($('li').hasClass('box__checked')) {
@@ -18,6 +8,17 @@ $(function () {
       alert('選択されていません');
     }
   });
+
+  // <!-- プログラミング言語ボタン活性化&非活性化 -->
+  // $('.js-checkbox').on('change', function () {
+  //   const target = $(this).data('target');
+  //   const language = document.getElementById(target);
+  //   if ($(this).prop('checked')) {
+  //     $(language).addClass('box__checked');
+  //   } else {
+  //     $(language).removeClass('box__checked');
+  //   }
+  // });
 
   // $('form').submit(function () {
   //   if ($('li').hasClass('box__checked')) {

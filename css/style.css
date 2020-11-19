@@ -471,7 +471,7 @@ template {
 }
 
 body {
-  color: #333333;
+  color: #cccccc;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 18px;
   letter-spacing: 0.04em;
@@ -508,6 +508,7 @@ body {
 
 .language__item input:checked + label {
   background-color: #ffffff;
+  color: #333333;
 }
 
 .language__item label {

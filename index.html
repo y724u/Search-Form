@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>検索フォーム</title>
 </head>
+
 <body>
   <section class="language">
-
     <div class="language__box">
       <ul class='language__list'>
-
-        <li class="language__item" id="html"><input class="js-checkbox" type="checkbox" name="" id="checkbox-html" data-target="html"><label for="checkbox-html">HTML</label></li>
-
-        <li class="language__item" id="css"><input class="js-checkbox" type="checkbox" name="" id="checkbox-css" data-target="css"><label for="checkbox-css">CSS</label></li>
-
-        <li class="language__item" id="javascript"><input class="js-checkbox" type="checkbox" name="" id="checkbox-javascript" data-target="javascript"><label for="checkbox-javascript">JavaScript</label></li>
-
-        <li class="language__item" id="php"><input class="js-checkbox" type="checkbox" name="" id="checkbox-php" data-target="php"><label for="checkbox-php">PHP</label></li>
-
-        <li class="language__item" id="ruby"><input class="js-checkbox" type="checkbox" name="" id="checkbox-ruby" data-target="ruby"><label for="checkbox-ruby">Ruby</label></li>
-
-        <li class="language__item" id="python"><input class="js-checkbox" type="checkbox" name="" id="checkbox-python" data-target="python"><label for="checkbox-python">Python</label></li>
-
+        <li class="language__item" id="html"><input class="js-checkbox" type="checkbox" id="checkbox-html"
+            value="HTML"><label for="checkbox-html">HTML</label>
+        </li>
+        <li class="language__item" id="css"><input class="js-checkbox" type="checkbox" id="checkbox-css"
+            value="CSS"><label for="checkbox-css">CSS</label>
+        </li>
+        <li class="language__item" id="javascript"><input class="js-checkbox" type="checkbox" id="checkbox-javascript"
+            value="JavaScript"><label for="checkbox-javascript">JavaScript</label></li>
+        <li class="language__item" id="php"><input class="js-checkbox" type="checkbox" id="checkbox-php"
+            value="PHP"><label for="checkbox-php">PHP</label>
+        </li>
+        <li class="language__item" id="ruby"><input class="js-checkbox" type="checkbox" id="checkbox-ruby"
+            value="Ruby"><label for="checkbox-ruby">Ruby</label>
+        </li>
+        <li class="language__item" id="python"><input class="js-checkbox" type="checkbox" id="checkbox-python"
+            value="Python"><label for="checkbox-python">Python</label>
+        </li>
       </ul>
     </div>
-
-    <div class="language__search"><form action="#">
-      <label for="serch"><input type="submit" value="検索" id="serch"></label>
-    </form>
+    <div class="language__search">
+      <form action="#">
+        <label for="serch"><input type="submit" value="検索" id="serch"></label>
+      </form>
     </div>
-
   </section>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="./script.js"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>

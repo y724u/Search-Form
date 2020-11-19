@@ -471,6 +471,60 @@ template {
 }
 
 body {
+  color: #333333;
   font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
   letter-spacing: 0.04em;
+}
+
+.language__box {
+  width: 100%;
+  height: auto;
+  margin: 87px 0 56px 0;
+}
+
+.language__list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 498px;
+  line-height: 53px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.language__list :nth-child(n+4) {
+  margin-top: 16px;
+}
+
+.language__item {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  width: 150px;
+  height: 55px;
+}
+
+.language__item label {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.language__item label input {
+  display: none;
+}
+
+.language__serch {
+  background-color: #888888;
+  border-radius: 4px;
+  color: #f7f7f7;
+  width: 129px;
+  height: 43px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.language__serch label input {
+  line-height: 43px;
 }

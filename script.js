@@ -1,6 +1,6 @@
 $(function () {
   const selectLanguage = [];
-  $('.js-form').on('submit',function () {
+  $('.js-form').on('submit', function () {
     selectLanguage.length = 0;
     $('.js-checkbox:checked').each(function () {
       selectLanguage.push($(this).val());

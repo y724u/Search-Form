@@ -5,7 +5,8 @@ $(function () {
     $('.js-checkbox:checked').each(function () {
       selectLanguage.push($(this).val());
     });
-    alert('「検索対象は、' + selectLanguage + 'です。」');
+    const answer = selectLanguage.join('、');
+    alert('「検索対象は、' + answer + 'です。」');
     event.preventDefault();
   });
 });
